@@ -1,9 +1,9 @@
 .Preisanzeige{
-    color: green;
+    color:Green;
 }
 ion-card
 {
-    width: 30%;
+    width: 32%;
     display: inline-block;
 
 }
@@ -14,4 +14,11 @@ img{
 #Speiseplan{
     display: flex;
     flex-wrap: wrap;
+}
+
+.Kalendar {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

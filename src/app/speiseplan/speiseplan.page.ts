@@ -28,6 +28,9 @@ export class SpeiseplanPage implements OnInit {
   getGericht(id: number): void {
     this.service.ladeGericht(id).subscribe(gericht => console.log(gericht));
   }
+  datumGeaendert():void {
+    this.getSpeiseplan(); 
+  }
 
   getSpeiseplan(): void {
 
